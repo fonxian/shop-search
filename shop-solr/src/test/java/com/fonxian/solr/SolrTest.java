@@ -50,8 +50,8 @@ public class SolrTest {
     @Test
     public void testDelete() throws IOException, SolrServerException {
 
-//        client.deleteById("test002");
-        client.deleteByQuery("pd_name:短尾");
+        client.deleteById("test001");
+//        client.deleteByQuery("pd_name:短尾");
         client.commit();
 
     }
